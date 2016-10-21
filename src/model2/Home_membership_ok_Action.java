@@ -19,7 +19,7 @@ public class Home_membership_ok_Action implements Action {
 	public void execute(HttpServletRequest request, HttpServletResponse response) {
 		// TODO Auto-generated method stub
 		
-		String uploadPath = "C:\\Users\\outou\\Desktop\\muggles_total_v3\\WebContent\\upload";
+		String uploadPath = "C:\\java\\workspace\\muggles\\WebContent\\images";
 	    int maxFileSize = 1024 * 1024 * 20;
 	    String encoding = "utf-8";
 	    MultipartRequest multi;
@@ -45,7 +45,7 @@ public class Home_membership_ok_Action implements Action {
 		    phone = multi.getParameter("phone").replaceAll("-", "");
 		    email = multi.getParameter("email");
 		    birthDate = multi.getParameter("birthDate").replaceAll("-", "");
-		    photo = multi.getFilesystemName("photo") == null ? "" : multi.getFilesystemName("photo");
+		    photo = multi.getFilesystemName("photo") == null ? "" : "./images/"+multi.getFilesystemName("photo");
 		    course_name = multi.getParameter("course_name");
 		    course_seq = multi.getParameter("course_seq");
 		    
