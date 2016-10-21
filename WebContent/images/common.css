@@ -1,0 +1,86 @@
+body {
+	background-color:#FFFFFF;
+	font-family:"돋움";
+}
+
+
+a {font-size: 9pt;color:#464646; text-decoration:none}
+a:visit{font-size: 9pt;color:#464646; text-decoration:none}
+a:link{ font-size: 9pt; color:#464646; text-decoration:none}
+a:hover{ font-size: 9pt; color:#000000; text-decoration:none}
+
+
+td, body {font-size: 9pt;color:#464646;}
+
+.button {background-color : #707070 ;  font-size:9pt; color:#FFFFFF; BORDER: #464646 1px solid;cursor:hand}
+.fnt_gray {font-size: 8pt;}
+.blog_url a {color:9C9A9C;text-decoration: none;}
+.blogtext FONT{line-height:170%;}
+.blogtext P,
+.blogtext H1, 
+.blogtext H2, 
+.blogtext H3, 
+.blogtext H4, 
+.blogtext H5, 
+.blogtext H6 {
+	font-family:"돋움,Verdana";
+	margin-top:2px;
+	margin-bottom:2px;
+}
+.blogtext A, 
+.blogtext A:link, 
+.blogtext A:visited,
+.blogtext A:hover {color:#404040; text-decoration:underline}
+
+.blogtext H1 {font-family:"arial,Dotum";font-weight:bold;color:#666633;font-size:12pt}
+.blogtext H2 {font-family:"verdana,돋움";font-weight:bold;color:#454545;font-size:12pt}
+.blogtext H3 {font-family:"arial,Dotum";font-weight:bold;color:#999966;font-size:11pt}
+.blogtext H4 {font-family:"verdana,돋움";font-weight:bold;color:#454545;font-size:9pt}
+.blogtext H5 {}
+.blogtext H6 {}
+
+
+.blog_num {  font-size: 6pt;}
+.blog_page {  font-size: 8pt;font-family:"arial";}
+.blog_maintitle {font-size:12pt; font-weight: bold;}
+.form {background-color : #FFFFFF ;  font-size:9pt; color:#636363; BORDER: #B9BAB9 1px solid;}
+.datetype {font-size:7pt;font-family:"arial";font-size: 11px; letter-spacing:0;}
+
+.line {background-color:#F4F4F4;}
+.bline {background-color:#777777;}
+.gline {background-color:#ECEBFF;}
+.imgline {background-image:url(dot.gif)} 
+
+.del_txt {background-color:#f0f0f0;color:#fa0000;font-size:9pt;padding:1 4 1 4;}
+.elltxt {text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+
+.titdot {color:#ff5555;}
+.titsdot {color:#009500;}
+
+.indent {padding:0 10 0 10; margin-left:40px; text-indent:-35px;text-align:justify;line-height:150%}
+
+.hrline {background-color:#F0F0F0;border:1px solid #F0F0F0;height:1px;width:100%}
+
+.tail_txt {font-weight: bold;color:#639A31;font-size:8pt;letter-spacing:-1;}
+
+.title {font-size:13px; font-weight: bold;}
+
+.titlecell, .titlecell td{background-color:#B9B9B9;color:#FFFFFF;font-weight: bold;}
+
+.evencell, .evencell td{background-color:#F2F2F2;}
+
+.tab_bg {background-image:url(st_adtab09.png);}
+.tab_bar {background-image:url(st_adtab01.png);width:1px;height:26px}
+.tabs_left {background-image:url(st_adtab02.png);width:4px;height:26px}
+.tabs_mid {background-image:url(st_adtab03.png);;height:26px;padding:7 5 0 5}
+.tabs_midtxt {color:#0061E6;font-weight: bold;}
+.tabs_right {background-image:url(st_adtab04.png);width:5px;height:26px}
+
+.tab_left {background-image:url(st_adtab05.png);width:4px;height:26px}
+.tab_mid {background-image:url(st_adtab06.png);;height:26px;padding:7 5 0 5}
+.tab_right {background-image:url(st_adtab07.png);width:5px;height:26px}
+
+.stab_left {background:#E7E7E7;width:1px;height:33px}
+.stab_mid {background:#F8FDF5;height:33px;}
+.stab_right {background:#E7E7E7;width:1px;height:33px}
+.stab_bot {background:#E7E7E7;height:1px;}
