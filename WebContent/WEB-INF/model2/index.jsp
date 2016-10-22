@@ -5,7 +5,7 @@
 <%@ page import="org.json.simple.JSONArray" %>
 <%@ page import="model1.MemberTO" %>
 <%@ page import="org.json.simple.JSONObject" %>
-
+ 
 <%
 	MemberTO to_log = (MemberTO)request.getAttribute("to_log");
 	String id = (String)session.getAttribute("sessionId");
